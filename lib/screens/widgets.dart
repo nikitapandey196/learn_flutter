@@ -5,6 +5,10 @@ class WidgetScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Center(child: Text("WidgetScreen"));;
+    return   Scaffold(
+      body: Center(
+        child: Text('Widget'),
+      ),
+    );
   }
 }

@@ -43,7 +43,7 @@ List<dynamic> screens=[
                 icon: Icon(Icons.widgets), label: "Widgets"),
           ]),
       backgroundColor: Color.fromARGB(255, 240, 190, 190),
-      appBar: customAppBar("Learn-Flutter"),
+     // appBar: customAppBar("Learn-Flutter"),
       body:screens[currentscreen],
     );
 
